@@ -7,6 +7,10 @@ class TarotCRUD {
         return await Tarot.countDocuments(query);
     }
 
+    async getById(id) {
+        return await Tarot.findById(id);
+    }
+
     async getByTitle(title) {
         return await Tarot.findOne({title});
     }

@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const tarotRouter = require('./routes/tarot');
+const readRouter = require('./routes/read');
 const cors = require('cors');
 
 app.use(cors());
 app.use(express.json());
 
-app.use('/tarot', tarotRouter);
+app.use('/tarot', readRouter);
 
 module.exports = app;
