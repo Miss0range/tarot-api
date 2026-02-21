@@ -1,19 +1,19 @@
 const mongoose = require('mongoose');
 const schema = mongoose.Schema;
 
-const meaningDetail = new schema({
+const meaningDetailSchema = new schema({
     keyword:[{type:String, required:true}],
     detail:{type:String, required:true}
 });
 
-const meanings = new schema({
-    general:{type:meaningDetail, required:true},
-    love:{type:meaningDetail, required:true},
-    career:{type:meaningDetail, required:true},
-    finances:{type:meaningDetail, required:true},
-    feelings:{type:meaningDetail, required:true},
-    actions:{type:meaningDetail, required:true},
-    yesno:{type:meaningDetail, required:true}
+const meaningsSchema = new schema({
+    general:{type:meaningDetailSchema, required:true},
+    love:{type:meaningDetailSchema, required:true},
+    career:{type:meaningDetailSchema, required:true},
+    finances:{type:meaningDetailSchema, required:true},
+    feelings:{type:meaningDetailSchema, required:true},
+    actions:{type:meaningDetailSchema, required:true},
+    yesno:{type:meaningDetailSchema, required:true}
 });
 
 const tarotSchema = new schema({
@@ -24,8 +24,8 @@ const tarotSchema = new schema({
         url: {type: String, required: true}
     }],
     meaning:{
-        upright:meanings,
-        reverse:meanings
+        upright:meaningsSchema,
+        reverse:meaningsSchema
     },
     summary:{type:String, required: true}
 });

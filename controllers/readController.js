@@ -1,4 +1,4 @@
-const tarotCRUD = require('../db-interaction/tarot-crud');
+const tarotCRUD = require('../CRUD/tarot-crud');
 
 class ReadController{
     constructor(){}

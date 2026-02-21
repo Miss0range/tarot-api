@@ -1,0 +1,33 @@
+[
+    {
+        "name": "past-present-future",
+        "size": 3,
+        "positionName": ["past", "present", "future"]
+    },
+    {
+        "name": "celtic-cross",
+        "size": 10,
+        "positionName": [
+            "present",
+            "challenge",
+            "past",
+            "future",
+            "best possible outcome",
+            "near future",
+            "your influence",
+            "external influences",
+            "hopes and fears",
+            "outcome"
+        ]
+    },
+    {
+        "name": "five-card-spread",
+        "size": 5,
+        "positionName": ["present", "past", "future", "reason", "potential"]
+    },
+    {
+        "name": "universal-six",
+        "size": 6,
+        "positionName": ["present", "desire", "fear", "for you", "against you", "outcome"]
+    }
+]

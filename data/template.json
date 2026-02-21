@@ -1,0 +1,72 @@
+{
+    "title": "",
+    "category": "pentacles",
+    "images": [
+        {
+            "deck": "Rider-Waite-Smith",
+            "url": "https://steve-p.org/cards/pix/RWSa-P-0A.png"
+        }
+    ],
+    "meaning": {
+        "upright": {
+            "general": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "love": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "career": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "finances": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "feelings": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "actions": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "yesno": {
+                "keyword": [""],
+                "detail": ""
+            }
+        },
+        "reverse": {
+            "general": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "love": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "career": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "finances": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "feelings": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "actions": {
+                "keyword": [""],
+                "detail": ""
+            },
+            "yesno": {
+                "keyword": [""],
+                "detail": ""
+            }
+        }
+    }
+}
