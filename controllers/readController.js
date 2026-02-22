@@ -1,70 +1,64 @@
-const tarotCRUD = require('../CRUD/tarot-crud');
+const tarotCRUD = require("../CRUD/tarot-crud");
+const { AppError, ErrorType } = require("../utility/AppError");
+const utility = require("../utility/utility");
 
-class ReadController{
-    constructor(){}
-
-    flipCoin(){
-        return Math.random() < 0.5 ? false : true;
-    }
-    
-    assignPosition(tarots){
-        let results = [];
-        for(let tarot of tarots) {
-            results.push({...tarot, position: this.flipCoin() ? 'upright': 'reverse'});
+class ReadController {
+    async #getTarots(size, majorOnly = false, allowReverse = true) {
+        const query = majorOnly ? { category: "major arcana" } : {};
+        const count = await tarotCRUD.count(query);
+        if (size > count)
+            throw new AppError(
+                `Size requested ${size} exceed collection size`,
+                ErrorType.SIZE_EXCEEDED,
+            );
+        const tarots = await tarotCRUD.getRandom(query, size);
+        if (!tarots) {
+            throw new AppError(
+                `failed to find tarots. please contact api creator for db integrity`,
+            );
         }
+        const positioned = allowReverse
+            ? utility.assignPosition(tarots)
+            : tarots.map((tarot) => ({
+                  ...tarot,
+                  position: "upright",
+              }));
+        return positioned;
+    }
+
+    //Support get numbers of random cards
+    async getRandomCards(size, majorOnly = false, allowReverse = true) {
+        const positioned = await this.#getTarots(size, majorOnly, allowReverse);
+        const results = positioned.map((tarot) => ({
+            id: tarot.id,
+            title: tarot.title,
+            position: tarot.position,
+        }));
         return results;
     }
 
-    async getRandomCards(mode,size){
-        let query = {};
-        if(mode?.major) query.category = 'major arcana';
-        try{
-            const count = await tarotCRUD.count(query);
-            if(size > count) return ({status:500, payload:{message: `Size requested ${size} exceed collection size`}});
-            let tarots = await tarotCRUD.getRandom(query, size);
-            if (tarots) {
-                let results = this.assignPosition(tarots);
-                results = results.map(tarot=> ({title:tarot.title, position:tarot.position}));
-                return ({status:200, payload:{results}})
-            }
-            else return ({status:500, payload:{message: `failed to find tarots. please contact api creator for db integrity`}});
-        }catch (error) {
-            console.error(error);
-            return ({status:500, payload:{message: error.message}});
-        }
+    //Support get a reading of specific spread
+    async getSpreadReading(spreadName, majorOnly = false, allowReverse = true) {
+        //Todo
     }
 
-    async getRandomCardsWithMeanings(mode, size){
-        let query = {};
-        if(mode?.major) query.category = 'major arcana';
-        try{
-            const count = await tarotCRUD.count(query);
-            if(size > count) return ({status:500, payload:{message: `Size requested ${size} exceed collection size`}});
-            let tarots = await tarotCRUD.getRandom(query, size);
-            if (tarots) {
-                let results = this.assignPosition(tarots);
-                if (mode?.meaning) results = results.map(tarot => ({...tarot,meaningAs: mode.question ?? 'general', meaning:tarot.meaning[tarot.position][mode.question ?? 'general']}));
-                else results = results.map(({meaning, ...rest})=> rest);
-                return ({status:200, payload:{results}})
-            }
-            else return ({status:500, payload:{message: `failed to find tarots. please contact api creator for db integrity`}});
-        }catch (error) {
-            console.error(error);
-            return ({status:500, payload:{message: error.message}});
-        }
+    //TODO: Don't put this into end point for copyright concern
+    async getRandomCardsWithMeaning(
+        size,
+        majorOnly = false,
+        allowReverse = true,
+        question = "general",
+    ) {
+        const positioned = await this.#getTarots(size, majorOnly, allowReverse);
+        //Todo: add enum for accpetable question error handle invalid question : like what for lunch
+        const results = positioned.map((tarot) => ({
+            id: tarot.id,
+            title: tarot.title,
+            position: tarot.position,
+            meaning: tarot.meaning[tarot.position][question],
+        }));
+        return results;
     }
-
-    async getByTitle(title){
-        try {
-            const tarot = await tarotCRUD.getByTitle(title);
-            if (tarot) return ({status:200, payload:tarot});
-            else return ({status:404, payload:{message: `card ${title.replace('-', ' ')} not found`}});
-        } catch (error) {
-            console.error(error);
-            return ({status:500, payload:{message: error.message}});
-        }
-    }
- 
 }
 
 module.exports = new ReadController();
