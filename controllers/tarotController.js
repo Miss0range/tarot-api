@@ -1,22 +1,18 @@
-const tarotCRUD = require('../CRUD/tarot-crud');
+const tarotCRUD = require("../CRUD/tarot-crud");
+const { AppError, ErrorType } = require("../utility/appError");
 
 class TarotController {
     constructor() {}
 
     async getByTitle(title) {
-        try {
-            const tarot = await tarotCRUD.getByTitle(title);
-            if (tarot) return { status: 200, payload: tarot };
-            else
-                return {
-                    status: 404,
-                    payload: {
-                        message: `card ${title.replace("-", " ")} not found`,
-                    },
-                };
-        } catch (error) {
-            console.error(error);
-            return { status: 500, payload: { message: error.message } };
+        const tarot = await tarotCRUD.getByTitle(title);
+        if (tarot) {
+            return { status: 200, payload: tarot };
+        } else {
+            throw new AppError(
+                `Tarot ${title} not found`,
+                ErrorType.RESOURCE_NOT_FOUND,
+            );
         }
     }
 }

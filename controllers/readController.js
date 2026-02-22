@@ -1,7 +1,7 @@
 const tarotCRUD = require("../CRUD/tarot-crud");
 const spreadCRUD = require("../CRUD/spread-crud");
 
-const { AppError, ErrorType } = require("../utility/AppError");
+const { AppError, ErrorType } = require("../utility/appError");
 
 const utility = require("../utility/utility");
 
