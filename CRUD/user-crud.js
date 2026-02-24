@@ -69,6 +69,22 @@ class UserCRUD {
         );
     }
 
+    async enableUserHistory(userId) {
+        return await User.findByIdAndUpdate(
+            userId,
+            { allowHistory: true },
+            { new: true, runValidators: true },
+        );
+    }
+
+    async disableUserHistory(userId) {
+        return await User.findByIdAndUpdate(
+            userId,
+            { allowHistory: false },
+            { new: true, runValidators: true },
+        );
+    }
+
     async deleteUser(userId) {
         // history not implemented yet
         // await History.deleteUserHistory(userId);

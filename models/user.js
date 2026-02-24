@@ -6,7 +6,8 @@ const userSchema = new Schema({
     password: {type: String, required: true},
     email: {type: String, required: true, unique: true},
     tier: {type:String, enum: ['admin', 'paid', 'free'], default:'free', required: true},
-    isActive: {type:Boolean, default: true}
+    isActive: {type:Boolean, default: true},
+    allowHistory: {type:Boolean, default: false},
 }, {timestamps: true});
 
 const User = mongoose.model('User', userSchema);
