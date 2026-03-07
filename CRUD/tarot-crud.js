@@ -16,7 +16,13 @@ class TarotCRUD {
     }
 
     async getRandom(query, size) {
-        return await Tarot.aggregate([{$match:query}, {$sample:{size}}]);
+        return await Tarot.aggregate([
+        { $match: query },
+        { $addFields: { random: { $rand: {} } } },
+        { $sort: { random: 1 } },
+        { $limit: size },
+        { $unset: "random" }
+    ]);
     }
 
 }

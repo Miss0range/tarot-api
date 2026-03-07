@@ -46,6 +46,7 @@ class UserController {
             email: user.email,
             isActive: user.isActive,
             allowHistory: user.allowHistory,
+            tier: user.tier
         };
         let signedToken = jwt.sign(userInfo, jwtSecret, {
             expiresIn: jwtExpirationTime,

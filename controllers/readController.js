@@ -16,7 +16,7 @@ const AcceptableQuestions = Object.freeze([
 
 class ReadController {
     async #getTarots(size, majorOnly = false, allowReverse = true) {
-        const query = majorOnly ? { category: "major arcana" } : {};
+        const query = majorOnly ? { suit: "major arcana" } : {};
         const count = await tarotCRUD.count(query);
         if (size > count)
             throw new AppError(
@@ -88,26 +88,6 @@ class ReadController {
             spreadPosition: positionName[index],
         }));
         return result;
-    }
-
-    //TODO: Don't put this into end point for copyright concern
-    async getRandomCardsWithMeaning(
-        size,
-        majorOnly = false,
-        allowReverse = true,
-        question = "general",
-    ) {
-        const positioned = await this.#getTarots(size, majorOnly, allowReverse);
-        const formattedQuestion = AcceptableQuestions.includes(question)
-            ? question
-            : "general";
-        const results = positioned.map((tarot) => ({
-            id: tarot.id,
-            title: tarot.title,
-            position: tarot.position,
-            meaning: tarot.meaning[tarot.position][formattedQuestion],
-        }));
-        return results;
     }
 }
 
