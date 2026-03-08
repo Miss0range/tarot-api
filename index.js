@@ -1,6 +1,6 @@
+require("dotenv").config();
 const db = require('./db/connection.js');
 const app = require('./app/app.js');
-require("dotenv").config();
 const port = process.env.PORT || 8000;
 
 db.once('open', () => {
@@ -11,12 +11,18 @@ db.once('open', () => {
 });
 
 db.on('error', (error) => {
-    console.log('error connecting to db : ', error);
+    console.error('error connecting to db : ', error);
 });
 
 const shutDown = async () => {
-    await db.close();
-    process.exit(0);
+    setTimeout(() => process.exit(1), 5000);
+    try {
+        await db.close();
+        process.exit(0);
+    } catch (err) {
+        console.error('Error during shutdown:', err);
+        process.exit(1);
+    }
 };
 
 process.on('SIGTERM', shutDown);

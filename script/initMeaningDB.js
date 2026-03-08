@@ -12,7 +12,7 @@ const path = require('path');
             const meanings = JSON.parse(rawMeanings);
             await Meaning.deleteMany({});
             for (let meaning of meanings) {
-                const tarot = await tarotCrud.getByTitle(meaning.tarot);
+                const tarot = await tarotCrud.getTarotByTitle(meaning.tarot);
                 const res = await Meaning.insertOne({
                     ...meaning,
                     tarotId: tarot._id,

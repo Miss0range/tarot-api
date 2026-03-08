@@ -1,10 +1,13 @@
-const express = require('express');
+const express = require("express");
 const tarotRouter = express.Router();
-const tarotController = require('../../controllers/tarotController');
+const tarotController = require("../../controllers/tarotController");
 
-tarotRouter.get("/title/:title", (req,res,next) => {
+tarotRouter.get("/title/:title", (req, res, next) => {
     const title = req.params.title;
-    tarotController.getByTitle(title).then((result)=> res.status(200).json(result)).catch(next);
+    tarotController
+        .getTarotByTitle(title)
+        .then((result) => res.status(200).json(result))
+        .catch(next);
 });
 
 module.exports = tarotRouter;

@@ -1,16 +1,15 @@
 class Utility{
     constructor(){}
 
-    flipCoin(){
-        return Math.random() < 0.5 ? false : true;
+    moonPhase(){
+        return Math.random() < 0.5 ? 'reverse' : 'upright';
     }
     
     assignPosition(tarots){
-        let results = [];
-        for(let tarot of tarots) {
-            results.push({...tarot, position: this.flipCoin() ? 'upright': 'reverse'});
-        }
-        return results;
+        return tarots.map(tarot => ({
+            ...tarot,
+            position: this.moonPhase()
+        }));
     }
 }
 

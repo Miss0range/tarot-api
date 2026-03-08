@@ -4,16 +4,16 @@ const { AppError, ErrorType } = require("../utility/appError");
 class TarotController {
     constructor() {}
 
-    async getByTitle(title) {
-        const tarot = await tarotCRUD.getByTitle(title);
-        if (tarot) {
-            return { status: 200, payload: tarot };
-        } else {
+    async getTarotByTitle(title) {
+        const tarot = await tarotCRUD.getTarotByTitle(title);
+        if (!tarot) {
             throw new AppError(
                 `Tarot ${title} not found`,
                 ErrorType.RESOURCE_NOT_FOUND,
+                "Tarot Controller - getTarotByTitle",
             );
         }
+        return tarot;
     }
 }
 

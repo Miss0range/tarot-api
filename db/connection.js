@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const path = require('path');
+// Fallback in case this module is loaded directly
 require("dotenv").config({path:path.join(__dirname, "../.env")});
 
 const {DB_URI, DB_PW} = process.env;

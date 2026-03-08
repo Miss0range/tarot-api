@@ -2,20 +2,24 @@ const express = require("express");
 const meaningRouter = express.Router();
 const meaningController = require("../../controllers/meaningController.js");
 
-meaningRouter.get("/reading", (req, res, next) => {
-    const { tarot, position, context } = req.query;
-    console.log(context);
+meaningRouter.post("/reading", (req, res, next) => {
+    const readings = req.body["reading"];
+    const context = req.body["context"];
+    if (!readings || !readings.tarots || !readings.tarots.length) {
+        return res.status(400).json({
+            message: "reading(s) required",
+        });
+    }
     meaningController
-        .getMeaningByReading(tarot, position, context)
+        .getMeaningsByReadings(readings, context)
         .then((result) => res.status(200).json(result))
         .catch(next);
 });
 
-meaningRouter.get("/tarot/:tarot", (req, res, next) => {
-    const tarot = req.params.tarot;
-    console.log(tarot);
+meaningRouter.get("/tarot/:tarotTitle", (req, res, next) => {
+    const tarotTitle = req.params.tarotTitle;
     meaningController
-        .getMeaningByTarot(tarot)
+        .getMeaningsByTarotTitle(tarotTitle)
         .then((result) => res.status(200).json(result))
         .catch(next);
 });

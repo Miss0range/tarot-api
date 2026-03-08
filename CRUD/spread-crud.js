@@ -8,7 +8,7 @@ class SpreadCRUD {
     }
 
     async createNewSpread(newSpread) {
-        return await Spread.insertOne(newSpread);
+        return await Spread.create(newSpread);
     }
 
 }

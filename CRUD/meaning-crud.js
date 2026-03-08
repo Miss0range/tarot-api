@@ -1,20 +1,23 @@
 const Meaning = require("../models/meaning");
 
 class MeaningCRUD {
-    async getMeaningByID(id) {
+    async getMeaningById(id) {
         return await Meaning.findById(id);
     }
 
-    async getMeaningByReading(tarot, position, context) {
-        return await Meaning.findOne({
-            tarot,
-            position,
+    async getMeaningsByTarots(tarots, context = "general") {
+        const conditions = tarots.map(tarot => ({
+            tarotId: tarot._id,
+            position: tarot.position,
             context,
-        }).populate("tarotId");
+        }))
+
+        const meanings = await Meaning.find({$or: conditions});
+        return meanings;
     }
 
-    async getMeaningByTarot(tarot) {
-        return await Meaning.find({ tarot });
+    async getMeaningsByTarotId(tarotId) {
+        return await Meaning.find({tarotId});
     }
 }
 

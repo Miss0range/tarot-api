@@ -1,12 +1,29 @@
 const User = require("../models/user");
+const { AppError, ErrorType } = require("../utility/appError");
+const { InternalRoles } = require("../utility/role");
 
 class UserCRUD {
-    //TODO : in controller, verify parameters are not empty string
     async createUser(username, email, password) {
         return await User.create({
             username,
             email,
             password,
+        });
+    }
+
+    async createInternalAccount(username, email, password, role) {
+        if (!InternalRoles.includes(role)) {
+            throw new AppError(
+                `Invalid Internal Role : ${role}`,
+                ErrorType.INVALID_INPUT,
+                "User CRUD - createInternalAccount",
+            );
+        }
+        return await User.create({
+            username,
+            email,
+            password,
+            role,
         });
     }
     async getUserById(userId) {
@@ -61,33 +78,23 @@ class UserCRUD {
         );
     }
 
-    async updateUserTier(userId, newTier) {
+    async updateUserPlan(userId, newPlan) {
         return await User.findByIdAndUpdate(
             userId,
-            { tier: newTier },
+            { plan: newPlan },
             { new: true, runValidators: true },
         );
     }
 
-    async enableUserHistory(userId) {
+    async verifyEmail(userId) {
         return await User.findByIdAndUpdate(
             userId,
-            { allowHistory: true },
-            { new: true, runValidators: true },
-        );
-    }
-
-    async disableUserHistory(userId) {
-        return await User.findByIdAndUpdate(
-            userId,
-            { allowHistory: false },
+            { emailVerified: true },
             { new: true, runValidators: true },
         );
     }
 
     async deleteUser(userId) {
-        // history not implemented yet
-        // await History.deleteUserHistory(userId);
         return await User.findByIdAndDelete(userId);
     }
 }
