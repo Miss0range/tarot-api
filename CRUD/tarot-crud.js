@@ -1,9 +1,9 @@
 const Tarot = require("../models/tarot");
 
 class TarotCRUD {
-    constructor(){}
+    constructor() {}
 
-    async count(query={}){
+    async count(query = {}) {
         return await Tarot.countDocuments(query);
     }
 
@@ -12,19 +12,18 @@ class TarotCRUD {
     }
 
     async getByTitle(title) {
-        return await Tarot.findOne({title});
+        return await Tarot.findOne({ title });
     }
 
     async getRandom(query, size) {
         return await Tarot.aggregate([
-        { $match: query },
-        { $addFields: { random: { $rand: {} } } },
-        { $sort: { random: 1 } },
-        { $limit: size },
-        { $unset: "random" }
-    ]);
+            { $match: query },
+            { $sample: { size: size * 2 } }, // oversample to account for dupes
+            { $group: { _id: "$_id", doc: { $first: "$$ROOT" } } },
+            { $replaceRoot: { newRoot: "$doc" } },
+            { $limit: size },
+        ]);
     }
-
 }
 
 module.exports = new TarotCRUD();

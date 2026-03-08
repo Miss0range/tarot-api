@@ -5,14 +5,15 @@ const { AppError, ErrorType } = require("../utility/appError");
 
 const utility = require("../utility/utility");
 
-const AcceptableQuestions = Object.freeze([
-    "love",
-    "career",
-    "finances",
-    "feelings",
-    "actions",
-    "yesno",
-]);
+//Todo: move this to meanings
+// const AcceptableQuestions = Object.freeze([
+//     "love",
+//     "career",
+//     "finances",
+//     "feelings",
+//     "actions",
+//     "yesno",
+// ]);
 
 class ReadController {
     async #getTarots(size, majorOnly = false, allowReverse = true) {

@@ -1,0 +1,1960 @@
+[
+    {
+        "tarot": "The Fool",
+        "context": "general",
+        "position": "upright",
+        "meaning": "A new beginning, spontaneous adventure, and innocent optimism. The Fool leaps into the unknown with trust and freedom.",
+        "keyword": [
+            "beginnings",
+            "spontaneity",
+            "innocence",
+            "adventure",
+            "freedom"
+        ]
+    },
+    {
+        "tarot": "The Fool",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recklessness, naivety, or holding back from a leap of faith. A warning to look before you leap.",
+        "keyword": [
+            "recklessness",
+            "naivety",
+            "hesitation",
+            "foolishness",
+            "risk"
+        ]
+    },
+    {
+        "tarot": "The Magician",
+        "context": "general",
+        "position": "upright",
+        "meaning": "You have all the tools and willpower needed to manifest your desires. Skill, resourcefulness, and focused intention.",
+        "keyword": [
+            "manifestation",
+            "willpower",
+            "skill",
+            "resourcefulness",
+            "action"
+        ]
+    },
+    {
+        "tarot": "The Magician",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Manipulation, untapped potential, or misdirected energy. Skills are present but not being used wisely.",
+        "keyword": [
+            "manipulation",
+            "trickery",
+            "wasted talent",
+            "deception",
+            "confusion"
+        ]
+    },
+    {
+        "tarot": "The High Priestess",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Intuition, mystery, and inner knowing. Trust your instincts and look beneath the surface for hidden truths.",
+        "keyword": [
+            "intuition",
+            "mystery",
+            "inner knowledge",
+            "patience",
+            "subconscious"
+        ]
+    },
+    {
+        "tarot": "The High Priestess",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Secrets withheld, ignoring intuition, or information kept from you. Disconnect from inner wisdom.",
+        "keyword": [
+            "secrets",
+            "withdrawal",
+            "repression",
+            "disconnection",
+            "silence"
+        ]
+    },
+    {
+        "tarot": "The Empress",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Abundance, fertility, creativity, and nurturing energy. A time of growth, beauty, and connection to nature.",
+        "keyword": [
+            "abundance",
+            "fertility",
+            "nurturing",
+            "creativity",
+            "nature"
+        ]
+    },
+    {
+        "tarot": "The Empress",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Creative block, dependence, or neglect of self-care. Overprotectiveness or smothering energy.",
+        "keyword": [
+            "creative block",
+            "dependence",
+            "smothering",
+            "neglect",
+            "stagnation"
+        ]
+    },
+
+    {
+        "tarot": "The Emperor",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Authority, structure, and stability. A father figure or disciplined approach that brings order and security.",
+        "keyword": [
+            "authority",
+            "structure",
+            "stability",
+            "discipline",
+            "leadership"
+        ]
+    },
+    {
+        "tarot": "The Emperor",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Tyranny, rigidity, or abuse of power. Excessive control, or lack of discipline causing chaos.",
+        "keyword": [
+            "tyranny",
+            "rigidity",
+            "control",
+            "domination",
+            "inflexibility"
+        ]
+    },
+
+    {
+        "tarot": "The Hierophant",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Tradition, spiritual guidance, and established institutions. Seeking wisdom through conventional paths or mentorship.",
+        "keyword": [
+            "tradition",
+            "spirituality",
+            "conformity",
+            "guidance",
+            "institutions"
+        ]
+    },
+    {
+        "tarot": "The Hierophant",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Rebellion against convention, personal beliefs challenged, or questioning dogma. Breaking free from tradition.",
+        "keyword": [
+            "rebellion",
+            "unorthodoxy",
+            "freedom",
+            "questioning",
+            "nonconformity"
+        ]
+    },
+
+    {
+        "tarot": "The Lovers",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Love, harmony, alignment, and meaningful choices. A deep connection or important decision rooted in values.",
+        "keyword": ["love", "harmony", "choices", "alignment", "connection"]
+    },
+    {
+        "tarot": "The Lovers",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Disharmony, imbalance, or a difficult choice avoided. Misaligned values or conflict in a relationship.",
+        "keyword": [
+            "disharmony",
+            "imbalance",
+            "conflict",
+            "avoidance",
+            "misalignment"
+        ]
+    },
+
+    {
+        "tarot": "The Chariot",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Determination, willpower, and victory through focused control. Overcoming obstacles with confidence and drive.",
+        "keyword": [
+            "determination",
+            "victory",
+            "control",
+            "willpower",
+            "ambition"
+        ]
+    },
+    {
+        "tarot": "The Chariot",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Lack of direction, aggression, or losing control. Obstacles overwhelm when focus and discipline are absent.",
+        "keyword": [
+            "lack of direction",
+            "aggression",
+            "loss of control",
+            "obstacles",
+            "defeat"
+        ]
+    },
+
+    {
+        "tarot": "Strength",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Inner strength, patience, and gentle courage. Taming raw impulses through compassion rather than force.",
+        "keyword": [
+            "inner strength",
+            "courage",
+            "patience",
+            "compassion",
+            "resilience"
+        ]
+    },
+    {
+        "tarot": "Strength",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Self-doubt, weakness, or raw emotions out of control. Fear undermining your inner power and confidence.",
+        "keyword": [
+            "self-doubt",
+            "weakness",
+            "fear",
+            "insecurity",
+            "lack of control"
+        ]
+    },
+
+    {
+        "tarot": "The Hermit",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Solitude, introspection, and soul-searching. Withdrawing from the world to seek inner wisdom and guidance.",
+        "keyword": [
+            "solitude",
+            "introspection",
+            "wisdom",
+            "guidance",
+            "reflection"
+        ]
+    },
+    {
+        "tarot": "The Hermit",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Isolation, loneliness, or withdrawal taken too far. Rejecting help or refusing to share your light with others.",
+        "keyword": [
+            "isolation",
+            "loneliness",
+            "withdrawal",
+            "rejection",
+            "reclusiveness"
+        ]
+    },
+
+    {
+        "tarot": "The Wheel of Fortune",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Cycles of change, fate, and turning points. Life is shifting in your favor — embrace the momentum.",
+        "keyword": ["change", "cycles", "fate", "luck", "turning point"]
+    },
+    {
+        "tarot": "The Wheel of Fortune",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Bad luck, resistance to change, or feeling stuck in a cycle. Clinging to the past disrupts natural flow.",
+        "keyword": [
+            "bad luck",
+            "resistance",
+            "stagnation",
+            "disruption",
+            "cycles"
+        ]
+    },
+
+    {
+        "tarot": "Justice",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Fairness, truth, and cause and effect. Decisions made now must be balanced and honest — karma is at work.",
+        "keyword": ["justice", "fairness", "truth", "karma", "balance"]
+    },
+    {
+        "tarot": "Justice",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Injustice, dishonesty, or avoiding accountability. An unfair outcome or refusal to accept consequences.",
+        "keyword": [
+            "injustice",
+            "dishonesty",
+            "imbalance",
+            "avoidance",
+            "corruption"
+        ]
+    },
+
+    {
+        "tarot": "The Hanged Man",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Pause, surrender, and seeing things from a new perspective. Voluntary sacrifice leads to deeper understanding.",
+        "keyword": ["pause", "surrender", "perspective", "sacrifice", "waiting"]
+    },
+    {
+        "tarot": "The Hanged Man",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Stalling, martyrdom, or resisting necessary sacrifice. Feeling stuck due to an unwillingness to let go.",
+        "keyword": [
+            "stalling",
+            "martyrdom",
+            "resistance",
+            "indecision",
+            "delay"
+        ]
+    },
+
+    {
+        "tarot": "Death",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Transformation, endings, and necessary change. One chapter closes to make way for powerful new beginnings.",
+        "keyword": [
+            "transformation",
+            "endings",
+            "change",
+            "transition",
+            "release"
+        ]
+    },
+    {
+        "tarot": "Death",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Resistance to change, stagnation, or inability to move on. Clinging to the past prevents transformation.",
+        "keyword": [
+            "resistance",
+            "stagnation",
+            "fear of change",
+            "clinging",
+            "decay"
+        ]
+    },
+
+    {
+        "tarot": "Temperance",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Balance, patience, and moderation. Blending opposites with grace to create harmony and long-term flow.",
+        "keyword": ["balance", "moderation", "patience", "harmony", "purpose"]
+    },
+    {
+        "tarot": "Temperance",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Excess, imbalance, or lack of long-term vision. Extremes in behavior are disrupting peace and progress.",
+        "keyword": [
+            "excess",
+            "imbalance",
+            "extremes",
+            "disruption",
+            "lack of patience"
+        ]
+    },
+
+    {
+        "tarot": "The Devil",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Bondage, materialism, and shadow self. Feeling trapped by addiction, unhealthy patterns, or limiting beliefs.",
+        "keyword": [
+            "bondage",
+            "materialism",
+            "addiction",
+            "shadow",
+            "temptation"
+        ]
+    },
+    {
+        "tarot": "The Devil",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Breaking free from chains, releasing unhealthy bonds, and reclaiming personal power.",
+        "keyword": [
+            "freedom",
+            "release",
+            "reclaiming power",
+            "detachment",
+            "recovery"
+        ]
+    },
+
+    {
+        "tarot": "The Tower",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Sudden upheaval, revelation, and destruction of false foundations. Chaos clears the way for truth.",
+        "keyword": [
+            "upheaval",
+            "chaos",
+            "revelation",
+            "destruction",
+            "sudden change"
+        ]
+    },
+    {
+        "tarot": "The Tower",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Avoiding disaster, delaying inevitable change, or internal upheaval. Crisis resisted but not resolved.",
+        "keyword": [
+            "avoidance",
+            "delayed crisis",
+            "internal turmoil",
+            "near miss",
+            "resistance"
+        ]
+    },
+
+    {
+        "tarot": "The Star",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Hope, renewal, and spiritual faith. After hardship, calm and inspiration return, guiding you forward.",
+        "keyword": ["hope", "renewal", "faith", "inspiration", "serenity"]
+    },
+    {
+        "tarot": "The Star",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Despair, loss of faith, or disconnection from hope. Feeling uninspired or unable to see the light ahead.",
+        "keyword": [
+            "despair",
+            "hopelessness",
+            "disconnection",
+            "faithlessness",
+            "disillusion"
+        ]
+    },
+
+    {
+        "tarot": "The Moon",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Illusion, fear, and the unconscious. Things are not as they appear — navigate uncertainty with intuition.",
+        "keyword": [
+            "illusion",
+            "fear",
+            "unconscious",
+            "uncertainty",
+            "confusion"
+        ]
+    },
+    {
+        "tarot": "The Moon",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Clarity emerging from confusion, repressed fears surfacing, or deception being revealed.",
+        "keyword": [
+            "clarity",
+            "release of fear",
+            "truth",
+            "revelation",
+            "repression"
+        ]
+    },
+
+    {
+        "tarot": "The Sun",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Joy, vitality, success, and clarity. Radiant positivity and confidence — things are going well and the truth shines.",
+        "keyword": ["joy", "success", "vitality", "clarity", "positivity"]
+    },
+    {
+        "tarot": "The Sun",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Temporary clouds over happiness, overconfidence, or delayed success. Joy is still available but dimmed.",
+        "keyword": [
+            "overconfidence",
+            "sadness",
+            "delay",
+            "blocked joy",
+            "pessimism"
+        ]
+    },
+
+    {
+        "tarot": "Judgement",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Awakening, reckoning, and a call to rise. A moment of self-evaluation and hearing a higher calling.",
+        "keyword": [
+            "awakening",
+            "reckoning",
+            "absolution",
+            "reflection",
+            "calling"
+        ]
+    },
+    {
+        "tarot": "Judgement",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Self-doubt, ignoring a calling, or harsh self-judgment. Refusing to learn from past mistakes.",
+        "keyword": [
+            "self-doubt",
+            "denial",
+            "self-judgment",
+            "stagnation",
+            "ignorance"
+        ]
+    },
+
+    {
+        "tarot": "The World",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Completion, integration, and fulfillment. A cycle ends in triumph — you have arrived at wholeness.",
+        "keyword": [
+            "completion",
+            "fulfillment",
+            "wholeness",
+            "achievement",
+            "integration"
+        ]
+    },
+    {
+        "tarot": "The World",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Incompletion, shortcuts, or delayed closure. A goal nearly reached but something still left unresolved.",
+        "keyword": [
+            "incompletion",
+            "delay",
+            "loose ends",
+            "shortcuts",
+            "stagnation"
+        ]
+    },
+
+    {
+        "tarot": "Ace of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "A new material opportunity, financial seed, or tangible beginning. Prosperous potential awaits grounding.",
+        "keyword": [
+            "opportunity",
+            "prosperity",
+            "new start",
+            "abundance",
+            "grounding"
+        ]
+    },
+    {
+        "tarot": "Ace of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Missed opportunity, financial instability, or poor planning. A promising start squandered.",
+        "keyword": [
+            "missed opportunity",
+            "instability",
+            "greed",
+            "poor planning",
+            "loss"
+        ]
+    },
+
+    {
+        "tarot": "Two of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Balance, adaptability, and juggling priorities. Managing multiple responsibilities with grace and humor.",
+        "keyword": [
+            "balance",
+            "adaptability",
+            "priorities",
+            "multitasking",
+            "flexibility"
+        ]
+    },
+    {
+        "tarot": "Two of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Overwhelm, disorganization, or poor financial management. Too many plates spinning at once.",
+        "keyword": [
+            "overwhelm",
+            "imbalance",
+            "disorganization",
+            "stress",
+            "overextension"
+        ]
+    },
+
+    {
+        "tarot": "Three of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Teamwork, collaboration, and skilled craftsmanship. Quality work recognized when people pool their talents.",
+        "keyword": [
+            "teamwork",
+            "collaboration",
+            "skill",
+            "craftsmanship",
+            "recognition"
+        ]
+    },
+    {
+        "tarot": "Three of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Lack of teamwork, poor quality work, or disorganization. Ego conflicts undermine group efforts.",
+        "keyword": [
+            "conflict",
+            "poor quality",
+            "disorganization",
+            "ego",
+            "lack of collaboration"
+        ]
+    },
+
+    {
+        "tarot": "Four of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Security, conservation, and holding onto resources. Stability achieved but caution borders on possessiveness.",
+        "keyword": [
+            "security",
+            "conservation",
+            "stability",
+            "possessiveness",
+            "control"
+        ]
+    },
+    {
+        "tarot": "Four of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Releasing control, generosity, or financial instability. Letting go of what was hoarded too tightly.",
+        "keyword": [
+            "release",
+            "generosity",
+            "instability",
+            "letting go",
+            "openness"
+        ]
+    },
+
+    {
+        "tarot": "Five of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Financial hardship, insecurity, or feeling left out in the cold. Difficulty but support is closer than it seems.",
+        "keyword": [
+            "hardship",
+            "insecurity",
+            "poverty",
+            "isolation",
+            "struggle"
+        ]
+    },
+    {
+        "tarot": "Five of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recovery from hardship, financial improvement, or accepting help. The worst may be passing.",
+        "keyword": [
+            "recovery",
+            "improvement",
+            "accepting help",
+            "hope",
+            "resilience"
+        ]
+    },
+
+    {
+        "tarot": "Six of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Generosity, charity, and the flow of giving and receiving. Sharing resources with fairness and goodwill.",
+        "keyword": ["generosity", "charity", "sharing", "fairness", "giving"]
+    },
+    {
+        "tarot": "Six of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Strings attached to generosity, debt, or power imbalance in giving. Gifts used to control.",
+        "keyword": [
+            "strings attached",
+            "debt",
+            "power imbalance",
+            "selfishness",
+            "inequality"
+        ]
+    },
+
+    {
+        "tarot": "Seven of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Patience, investment, and long-term vision. Pausing to assess progress and whether efforts are bearing fruit.",
+        "keyword": [
+            "patience",
+            "investment",
+            "assessment",
+            "perseverance",
+            "harvest"
+        ]
+    },
+    {
+        "tarot": "Seven of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Impatience, poor investment, or lack of reward for effort. Reassess whether your energy is well spent.",
+        "keyword": [
+            "impatience",
+            "poor return",
+            "frustration",
+            "wasted effort",
+            "reassessment"
+        ]
+    },
+
+    {
+        "tarot": "Eight of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Diligence, mastery, and focused effort. Honing a skill through dedication and hard work pays off.",
+        "keyword": [
+            "diligence",
+            "mastery",
+            "skill",
+            "dedication",
+            "craftsmanship"
+        ]
+    },
+    {
+        "tarot": "Eight of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Perfectionism, lack of focus, or going through the motions without growth. Mediocre effort yields mediocre results.",
+        "keyword": [
+            "perfectionism",
+            "lack of focus",
+            "mediocrity",
+            "shortcuts",
+            "boredom"
+        ]
+    },
+
+    {
+        "tarot": "Nine of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Abundance, self-sufficiency, and the reward of disciplined effort. Enjoying the fruits of your labor independently.",
+        "keyword": [
+            "abundance",
+            "self-sufficiency",
+            "luxury",
+            "independence",
+            "achievement"
+        ]
+    },
+    {
+        "tarot": "Nine of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Overindulgence, financial dependency, or success built on shaky ground. Be wary of superficiality.",
+        "keyword": [
+            "overindulgence",
+            "dependency",
+            "instability",
+            "superficiality",
+            "hollow success"
+        ]
+    },
+
+    {
+        "tarot": "Ten of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Legacy, long-term stability, and family wealth. The culmination of material success shared across generations.",
+        "keyword": ["legacy", "stability", "family", "wealth", "fulfillment"]
+    },
+    {
+        "tarot": "Ten of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Family conflict over money, unstable foundations, or failure to build lasting security.",
+        "keyword": [
+            "family conflict",
+            "instability",
+            "financial loss",
+            "broken legacy",
+            "discord"
+        ]
+    },
+
+    {
+        "tarot": "Page of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Ambition, diligence, and a desire to learn practical skills. A new venture approached with grounded curiosity.",
+        "keyword": [
+            "ambition",
+            "diligence",
+            "learning",
+            "practicality",
+            "new beginnings"
+        ]
+    },
+    {
+        "tarot": "Page of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Laziness, procrastination, or lack of follow-through on practical goals. Daydreaming without action.",
+        "keyword": [
+            "laziness",
+            "procrastination",
+            "unfocused",
+            "missed opportunity",
+            "immaturity"
+        ]
+    },
+
+    {
+        "tarot": "Knight of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Reliability, hard work, and methodical progress. Slow and steady wins the race through persistence.",
+        "keyword": [
+            "reliability",
+            "hard work",
+            "persistence",
+            "methodical",
+            "responsibility"
+        ]
+    },
+    {
+        "tarot": "Knight of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Stubbornness, boredom, or being stuck in a rut. Overly cautious to the point of stagnation.",
+        "keyword": [
+            "stubbornness",
+            "stagnation",
+            "boredom",
+            "inflexibility",
+            "laziness"
+        ]
+    },
+
+    {
+        "tarot": "Queen of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Nurturing, practical wisdom, and abundant home life. Grounded care expressed through providing and creating comfort.",
+        "keyword": [
+            "nurturing",
+            "practicality",
+            "abundance",
+            "homemaking",
+            "warmth"
+        ]
+    },
+    {
+        "tarot": "Queen of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Neglect of home or self, financial mismanagement, or smothering under the guise of care.",
+        "keyword": [
+            "neglect",
+            "financial mismanagement",
+            "smothering",
+            "insecurity",
+            "imbalance"
+        ]
+    },
+
+    {
+        "tarot": "King of Pentacles",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Wealth, authority, and material mastery. A steady, generous leader who has built lasting security.",
+        "keyword": ["wealth", "authority", "stability", "generosity", "success"]
+    },
+    {
+        "tarot": "King of Pentacles",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Greed, corruption, or being excessively focused on material gain at the expense of all else.",
+        "keyword": [
+            "greed",
+            "corruption",
+            "materialism",
+            "stubbornness",
+            "financial failure"
+        ]
+    },
+
+    {
+        "tarot": "Ace of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Creative spark, inspiration, and new passionate beginnings. The fire of potential ignites — act on it.",
+        "keyword": [
+            "inspiration",
+            "creativity",
+            "new beginnings",
+            "passion",
+            "potential"
+        ]
+    },
+    {
+        "tarot": "Ace of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Delays, lack of motivation, or a creative block. The spark is present but struggling to catch fire.",
+        "keyword": [
+            "delay",
+            "lack of motivation",
+            "creative block",
+            "false start",
+            "hesitation"
+        ]
+    },
+
+    {
+        "tarot": "Two of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Planning, vision, and looking toward the horizon. Early success leads to bigger ambitions and bold decisions.",
+        "keyword": ["planning", "vision", "ambition", "decisions", "progress"]
+    },
+    {
+        "tarot": "Two of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Fear of the unknown, poor planning, or playing it too safe. Hesitation stalls forward momentum.",
+        "keyword": [
+            "fear",
+            "hesitation",
+            "poor planning",
+            "lack of vision",
+            "indecision"
+        ]
+    },
+
+    {
+        "tarot": "Three of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Expansion, foresight, and the rewards of early action. Your plans are in motion — look further ahead.",
+        "keyword": [
+            "expansion",
+            "foresight",
+            "progress",
+            "opportunity",
+            "exploration"
+        ]
+    },
+    {
+        "tarot": "Three of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Delays in plans, lack of foresight, or frustration with slow progress. Reassess before pushing forward.",
+        "keyword": [
+            "delays",
+            "frustration",
+            "obstacles",
+            "lack of foresight",
+            "retreat"
+        ]
+    },
+
+    {
+        "tarot": "Four of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Celebration, homecoming, and joyful milestones. A period of harmony, community, and well-deserved happiness.",
+        "keyword": ["celebration", "harmony", "homecoming", "milestone", "joy"]
+    },
+    {
+        "tarot": "Four of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Disrupted celebrations, lack of harmony at home, or transition feeling unsettled rather than joyful.",
+        "keyword": [
+            "disruption",
+            "discord",
+            "instability",
+            "conflict",
+            "transition"
+        ]
+    },
+
+    {
+        "tarot": "Five of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Conflict, competition, and clashing energies. Healthy debate or chaotic struggle where everyone fights for attention.",
+        "keyword": ["conflict", "competition", "struggle", "debate", "tension"]
+    },
+    {
+        "tarot": "Five of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Avoiding conflict, inner tension, or competition coming to an end. Time to resolve disputes and move on.",
+        "keyword": [
+            "avoidance",
+            "inner conflict",
+            "resolution",
+            "end of struggle",
+            "suppression"
+        ]
+    },
+
+    {
+        "tarot": "Six of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Victory, public recognition, and well-earned success. Confidence and leadership inspire others around you.",
+        "keyword": [
+            "victory",
+            "recognition",
+            "success",
+            "leadership",
+            "confidence"
+        ]
+    },
+    {
+        "tarot": "Six of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Egotism, fall from grace, or success undermined by arrogance. Recognition delayed or withheld.",
+        "keyword": [
+            "egotism",
+            "arrogance",
+            "failure",
+            "lack of recognition",
+            "self-doubt"
+        ]
+    },
+
+    {
+        "tarot": "Seven of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Defensiveness, standing your ground, and perseverance under pressure. Hold your position with conviction.",
+        "keyword": [
+            "perseverance",
+            "defense",
+            "conviction",
+            "challenge",
+            "resilience"
+        ]
+    },
+    {
+        "tarot": "Seven of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Giving up, feeling overwhelmed, or abandoning your stance. Exhaustion from constant opposition.",
+        "keyword": [
+            "giving up",
+            "overwhelm",
+            "retreat",
+            "exhaustion",
+            "vulnerability"
+        ]
+    },
+
+    {
+        "tarot": "Eight of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Swift action, rapid progress, and momentum. Things are moving fast — communication and travel are highlighted.",
+        "keyword": ["speed", "momentum", "progress", "communication", "action"]
+    },
+    {
+        "tarot": "Eight of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Delays, miscommunication, or scattered energy. Rushing leads to mistakes; pause and recalibrate.",
+        "keyword": [
+            "delays",
+            "miscommunication",
+            "chaos",
+            "slow progress",
+            "frustration"
+        ]
+    },
+
+    {
+        "tarot": "Nine of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Resilience, persistence, and guarded strength. Tired but standing — one last push will see you through.",
+        "keyword": [
+            "resilience",
+            "persistence",
+            "endurance",
+            "caution",
+            "boundaries"
+        ]
+    },
+    {
+        "tarot": "Nine of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Paranoia, stubbornness, or refusing help when burned out. Walls built from past wounds block progress.",
+        "keyword": [
+            "paranoia",
+            "stubbornness",
+            "burnout",
+            "defensiveness",
+            "isolation"
+        ]
+    },
+
+    {
+        "tarot": "Ten of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Burden, overcommitment, and carrying too much. Success comes with heavy responsibility — delegate or release.",
+        "keyword": [
+            "burden",
+            "overcommitment",
+            "responsibility",
+            "exhaustion",
+            "pressure"
+        ]
+    },
+    {
+        "tarot": "Ten of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Releasing burdens, delegating tasks, or collapsing under pressure. Learn to let go before breaking.",
+        "keyword": [
+            "release",
+            "delegation",
+            "burnout",
+            "collapse",
+            "letting go"
+        ]
+    },
+
+    {
+        "tarot": "Page of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Enthusiasm, exploration, and a free-spirited approach to new ideas. Bold curiosity and creative energy.",
+        "keyword": [
+            "enthusiasm",
+            "exploration",
+            "creativity",
+            "curiosity",
+            "free spirit"
+        ]
+    },
+    {
+        "tarot": "Page of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Impulsiveness, lack of direction, or creative ideas without follow-through. Energy scattered.",
+        "keyword": [
+            "impulsiveness",
+            "scattered energy",
+            "lack of direction",
+            "immaturity",
+            "delay"
+        ]
+    },
+
+    {
+        "tarot": "Knight of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Passion, adventure, and fearless action. Charging forward with confidence and infectious enthusiasm.",
+        "keyword": [
+            "passion",
+            "adventure",
+            "confidence",
+            "action",
+            "enthusiasm"
+        ]
+    },
+    {
+        "tarot": "Knight of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recklessness, arrogance, or burning out from moving too fast without a plan.",
+        "keyword": [
+            "recklessness",
+            "arrogance",
+            "burnout",
+            "impulsiveness",
+            "haste"
+        ]
+    },
+
+    {
+        "tarot": "Queen of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Charisma, confidence, and vibrant energy. A bold, warm leader who inspires through passion and authenticity.",
+        "keyword": [
+            "charisma",
+            "confidence",
+            "warmth",
+            "leadership",
+            "independence"
+        ]
+    },
+    {
+        "tarot": "Queen of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Jealousy, selfishness, or demanding behavior. Insecurity masked as boldness, or energy burned inward.",
+        "keyword": [
+            "jealousy",
+            "selfishness",
+            "insecurity",
+            "demanding",
+            "aggression"
+        ]
+    },
+
+    {
+        "tarot": "King of Wands",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Visionary leadership, bold ambition, and inspiring action. A natural entrepreneur with fire and charisma.",
+        "keyword": [
+            "leadership",
+            "vision",
+            "ambition",
+            "charisma",
+            "entrepreneurship"
+        ]
+    },
+    {
+        "tarot": "King of Wands",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Arrogance, impulsiveness, or tyrannical leadership. Passion without discipline causes chaos.",
+        "keyword": [
+            "arrogance",
+            "impulsiveness",
+            "tyranny",
+            "ruthlessness",
+            "lack of control"
+        ]
+    },
+
+    {
+        "tarot": "Ace of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "New emotional beginnings, love, and spiritual openness. A heart overflowing with compassion and intuition.",
+        "keyword": [
+            "love",
+            "new beginnings",
+            "compassion",
+            "intuition",
+            "openness"
+        ]
+    },
+    {
+        "tarot": "Ace of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Emotional blockage, repressed feelings, or a closed heart. Difficulty receiving or expressing love.",
+        "keyword": [
+            "emotional block",
+            "repression",
+            "closed heart",
+            "emptiness",
+            "loss"
+        ]
+    },
+
+    {
+        "tarot": "Two of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Mutual attraction, partnership, and emotional harmony. A meaningful bond built on respect and shared feeling.",
+        "keyword": [
+            "partnership",
+            "attraction",
+            "harmony",
+            "connection",
+            "love"
+        ]
+    },
+    {
+        "tarot": "Two of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Imbalance in a relationship, miscommunication, or a partnership falling apart.",
+        "keyword": [
+            "imbalance",
+            "miscommunication",
+            "breakup",
+            "tension",
+            "disharmony"
+        ]
+    },
+
+    {
+        "tarot": "Three of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Celebration, friendship, and joyful community. A time of abundance shared with those you love.",
+        "keyword": [
+            "celebration",
+            "friendship",
+            "joy",
+            "community",
+            "abundance"
+        ]
+    },
+    {
+        "tarot": "Three of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Overindulgence, gossip, or isolation from community. Celebration turning to excess or exclusion.",
+        "keyword": [
+            "overindulgence",
+            "gossip",
+            "isolation",
+            "excess",
+            "exclusion"
+        ]
+    },
+
+    {
+        "tarot": "Four of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Contemplation, apathy, and missed opportunities. Withdrawal from the world while a new offer goes unnoticed.",
+        "keyword": [
+            "apathy",
+            "contemplation",
+            "boredom",
+            "withdrawal",
+            "missed opportunity"
+        ]
+    },
+    {
+        "tarot": "Four of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Re-engagement, new motivation, or emerging from a period of apathy. Clarity comes after reflection.",
+        "keyword": [
+            "re-engagement",
+            "motivation",
+            "clarity",
+            "awakening",
+            "acceptance"
+        ]
+    },
+
+    {
+        "tarot": "Five of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Grief, loss, and focusing on what was spilled rather than what remains. Mourning is valid, but hope persists.",
+        "keyword": ["grief", "loss", "regret", "sorrow", "disappointment"]
+    },
+    {
+        "tarot": "Five of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Acceptance, moving on, and finding peace after loss. Turning toward what remains rather than what's gone.",
+        "keyword": [
+            "acceptance",
+            "moving on",
+            "peace",
+            "recovery",
+            "forgiveness"
+        ]
+    },
+
+    {
+        "tarot": "Six of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Nostalgia, innocence, and revisiting the past. Warmth from childhood memories or reconnecting with the familiar.",
+        "keyword": [
+            "nostalgia",
+            "innocence",
+            "memories",
+            "childhood",
+            "reunion"
+        ]
+    },
+    {
+        "tarot": "Six of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Living in the past, naivety, or being stuck in childhood patterns. Resistance to growing forward.",
+        "keyword": [
+            "living in the past",
+            "naivety",
+            "stagnation",
+            "immaturity",
+            "escapism"
+        ]
+    },
+
+    {
+        "tarot": "Seven of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Fantasy, choices, and illusion. Many options appear but not all are real — discernment is essential.",
+        "keyword": [
+            "fantasy",
+            "illusion",
+            "choices",
+            "wishful thinking",
+            "confusion"
+        ]
+    },
+    {
+        "tarot": "Seven of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Clarity after confusion, making a decision, or seeing through illusions to what is real.",
+        "keyword": [
+            "clarity",
+            "decision",
+            "reality",
+            "focus",
+            "disillusionment"
+        ]
+    },
+
+    {
+        "tarot": "Eight of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Walking away, withdrawal, and seeking deeper meaning. Leaving behind what no longer nourishes the soul.",
+        "keyword": [
+            "withdrawal",
+            "walking away",
+            "deeper meaning",
+            "disillusionment",
+            "soul searching"
+        ]
+    },
+    {
+        "tarot": "Eight of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Fear of moving on, staying in unfulfilling situations, or returning to what was left behind.",
+        "keyword": [
+            "fear",
+            "stagnation",
+            "returning",
+            "avoidance",
+            "hopelessness"
+        ]
+    },
+
+    {
+        "tarot": "Nine of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Contentment, satisfaction, and wishes fulfilled. Emotional well-being and personal happiness achieved.",
+        "keyword": [
+            "contentment",
+            "satisfaction",
+            "fulfillment",
+            "happiness",
+            "gratitude"
+        ]
+    },
+    {
+        "tarot": "Nine of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Overindulgence, smugness, or wishes fulfilled that don't bring true happiness. Be careful what you wish for.",
+        "keyword": [
+            "overindulgence",
+            "smugness",
+            "superficial happiness",
+            "greed",
+            "dissatisfaction"
+        ]
+    },
+
+    {
+        "tarot": "Ten of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Emotional fulfillment, family harmony, and enduring happiness. The heart's deepest dream realized.",
+        "keyword": [
+            "fulfillment",
+            "harmony",
+            "family",
+            "happiness",
+            "lasting love"
+        ]
+    },
+    {
+        "tarot": "Ten of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Broken family dynamics, misaligned values, or a happiness that is only surface-deep.",
+        "keyword": [
+            "broken home",
+            "disharmony",
+            "misalignment",
+            "conflict",
+            "superficiality"
+        ]
+    },
+
+    {
+        "tarot": "Page of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Creative sensitivity, intuitive messages, and emotional openness. Expect the unexpected — stay curious.",
+        "keyword": [
+            "sensitivity",
+            "intuition",
+            "creativity",
+            "openness",
+            "messages"
+        ]
+    },
+    {
+        "tarot": "Page of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Emotional immaturity, creative blocks, or being overly impressionable. Daydreaming without grounding.",
+        "keyword": [
+            "immaturity",
+            "creative block",
+            "impressionable",
+            "escapism",
+            "moodiness"
+        ]
+    },
+
+    {
+        "tarot": "Knight of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Romance, charm, and following the heart. An idealistic messenger arriving with an emotional invitation.",
+        "keyword": ["romance", "charm", "idealism", "emotion", "invitation"]
+    },
+    {
+        "tarot": "Knight of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Moodiness, unrealistic expectations, or emotional manipulation. Charm used deceptively.",
+        "keyword": [
+            "moodiness",
+            "deception",
+            "unrealistic",
+            "manipulation",
+            "disappointment"
+        ]
+    },
+
+    {
+        "tarot": "Queen of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Emotional intelligence, compassion, and intuitive wisdom. A deeply empathetic presence that nurtures and heals.",
+        "keyword": [
+            "compassion",
+            "emotional intelligence",
+            "intuition",
+            "nurturing",
+            "healing"
+        ]
+    },
+    {
+        "tarot": "Queen of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Emotional codependency, martyrdom, or absorbing others' feelings at the expense of self.",
+        "keyword": [
+            "codependency",
+            "martyrdom",
+            "emotional overwhelm",
+            "insecurity",
+            "manipulation"
+        ]
+    },
+
+    {
+        "tarot": "King of Cups",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Emotional maturity, calm authority, and wise diplomacy. Balancing heart and mind with grace.",
+        "keyword": [
+            "emotional maturity",
+            "diplomacy",
+            "wisdom",
+            "calm",
+            "compassion"
+        ]
+    },
+    {
+        "tarot": "King of Cups",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Emotional manipulation, moodiness, or repressing feelings beneath a calm surface.",
+        "keyword": [
+            "manipulation",
+            "moodiness",
+            "repression",
+            "volatility",
+            "coldness"
+        ]
+    },
+
+    {
+        "tarot": "Ace of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Mental clarity, truth, and a breakthrough. A new idea or decisive moment cuts through confusion.",
+        "keyword": [
+            "clarity",
+            "truth",
+            "breakthrough",
+            "intellect",
+            "decisiveness"
+        ]
+    },
+    {
+        "tarot": "Ace of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Confusion, miscommunication, or a clouded mind. A truth too painful to face or a plan losing its edge.",
+        "keyword": [
+            "confusion",
+            "miscommunication",
+            "clouded thinking",
+            "chaos",
+            "deception"
+        ]
+    },
+
+    {
+        "tarot": "Two of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Indecision, stalemate, and avoiding a difficult truth. A choice must be made but the mind is blocked.",
+        "keyword": ["indecision", "stalemate", "avoidance", "blocked", "choice"]
+    },
+    {
+        "tarot": "Two of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Clarity after confusion, a difficult decision made, or painful information finally revealed.",
+        "keyword": [
+            "clarity",
+            "decision",
+            "truth revealed",
+            "release",
+            "moving forward"
+        ]
+    },
+
+    {
+        "tarot": "Three of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Heartbreak, grief, and emotional pain. Sorrow must be felt fully before healing can begin.",
+        "keyword": ["heartbreak", "grief", "pain", "sorrow", "loss"]
+    },
+    {
+        "tarot": "Three of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recovery from heartbreak, releasing grief, or lingering pain that refuses to heal.",
+        "keyword": [
+            "recovery",
+            "release",
+            "healing",
+            "lingering pain",
+            "forgiveness"
+        ]
+    },
+
+    {
+        "tarot": "Four of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Rest, recovery, and mental retreat. Step back from conflict to restore your mind and body.",
+        "keyword": ["rest", "recovery", "retreat", "contemplation", "peace"]
+    },
+    {
+        "tarot": "Four of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Restlessness, burnout, or refusing to rest. Returning to action before fully recovered.",
+        "keyword": [
+            "restlessness",
+            "burnout",
+            "action",
+            "recovery",
+            "exhaustion"
+        ]
+    },
+
+    {
+        "tarot": "Five of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Conflict, defeat, and hollow victory. Winning at all costs may leave everyone worse off.",
+        "keyword": [
+            "conflict",
+            "defeat",
+            "hollow victory",
+            "tension",
+            "betrayal"
+        ]
+    },
+    {
+        "tarot": "Five of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Reconciliation, moving past conflict, or a lingering grudge finally released. Choose peace over victory.",
+        "keyword": [
+            "reconciliation",
+            "peace",
+            "forgiveness",
+            "moving on",
+            "resolution"
+        ]
+    },
+
+    {
+        "tarot": "Six of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Transition, moving on, and calmer waters ahead. Leaving turbulence behind for a more peaceful passage.",
+        "keyword": ["transition", "moving on", "calm", "journey", "healing"]
+    },
+    {
+        "tarot": "Six of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Resistance to change, returning to turbulence, or a transition that is slow and painful.",
+        "keyword": [
+            "resistance",
+            "returning",
+            "turbulence",
+            "stagnation",
+            "unresolved"
+        ]
+    },
+
+    {
+        "tarot": "Seven of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Deception, strategy, and acting alone. Sneaky behavior or clever maneuvering — not all is as it seems.",
+        "keyword": ["deception", "strategy", "stealth", "cunning", "dishonesty"]
+    },
+    {
+        "tarot": "Seven of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Confession, coming clean, or being caught in a deception. Truth surfaces despite attempts to hide it.",
+        "keyword": [
+            "confession",
+            "truth",
+            "exposure",
+            "conscience",
+            "accountability"
+        ]
+    },
+
+    {
+        "tarot": "Eight of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Restriction, self-imprisonment, and limiting beliefs. You feel trapped, but the blindfold may be self-imposed.",
+        "keyword": [
+            "restriction",
+            "self-imprisonment",
+            "limitation",
+            "fear",
+            "isolation"
+        ]
+    },
+    {
+        "tarot": "Eight of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Breaking free, releasing limiting beliefs, and reclaiming personal power after feeling stuck.",
+        "keyword": [
+            "freedom",
+            "release",
+            "empowerment",
+            "clarity",
+            "new perspective"
+        ]
+    },
+
+    {
+        "tarot": "Nine of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Anxiety, nightmares, and mental anguish. Worry and despair may be worse in the mind than in reality.",
+        "keyword": [
+            "anxiety",
+            "nightmares",
+            "despair",
+            "worry",
+            "mental anguish"
+        ]
+    },
+    {
+        "tarot": "Nine of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Release from anxiety, seeking help, or hitting rock bottom before healing begins.",
+        "keyword": ["release", "recovery", "rock bottom", "healing", "hope"]
+    },
+
+    {
+        "tarot": "Ten of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Painful endings, betrayal, and rock bottom. A brutal conclusion, but the dawn follows the darkest night.",
+        "keyword": [
+            "painful ending",
+            "betrayal",
+            "rock bottom",
+            "defeat",
+            "finality"
+        ]
+    },
+    {
+        "tarot": "Ten of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recovery, resurrection, and refusing to stay down. Rising again after total collapse.",
+        "keyword": [
+            "recovery",
+            "resurrection",
+            "survival",
+            "rising again",
+            "new dawn"
+        ]
+    },
+
+    {
+        "tarot": "Page of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Curiosity, quick thinking, and a thirst for truth. Alert and communicative, ready to challenge ideas.",
+        "keyword": [
+            "curiosity",
+            "intellect",
+            "communication",
+            "alertness",
+            "truth-seeking"
+        ]
+    },
+    {
+        "tarot": "Page of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Gossip, sharp tongue, or using intellect to wound. Ideas without wisdom or tact.",
+        "keyword": [
+            "gossip",
+            "harsh words",
+            "immaturity",
+            "deception",
+            "recklessness"
+        ]
+    },
+
+    {
+        "tarot": "Knight of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Ambition, speed, and intellectual force. Charging ahead with conviction — decisive and sometimes reckless.",
+        "keyword": ["ambition", "speed", "intellect", "decisiveness", "force"]
+    },
+    {
+        "tarot": "Knight of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Recklessness, aggression, or burning bridges. Acting without thinking leads to unnecessary conflict.",
+        "keyword": [
+            "recklessness",
+            "aggression",
+            "impulsiveness",
+            "conflict",
+            "burnout"
+        ]
+    },
+
+    {
+        "tarot": "Queen of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Clear thinking, independence, and direct communication. Sharp intellect cuts through illusion with grace.",
+        "keyword": [
+            "intellect",
+            "independence",
+            "clarity",
+            "directness",
+            "discernment"
+        ]
+    },
+    {
+        "tarot": "Queen of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Cold-heartedness, bitterness, or using words as weapons. Isolation behind a wall of sharp intellect.",
+        "keyword": [
+            "bitterness",
+            "cold",
+            "isolation",
+            "cruelty",
+            "manipulation"
+        ]
+    },
+
+    {
+        "tarot": "King of Swords",
+        "context": "general",
+        "position": "upright",
+        "meaning": "Intellectual authority, clear judgment, and ethical leadership. Truth and logic serve as the highest guide.",
+        "keyword": ["authority", "judgment", "intellect", "truth", "leadership"]
+    },
+    {
+        "tarot": "King of Swords",
+        "context": "general",
+        "position": "reverse",
+        "meaning": "Tyranny, manipulation, or abuse of intellectual power. Cold logic without compassion or integrity.",
+        "keyword": [
+            "tyranny",
+            "manipulation",
+            "cruelty",
+            "abuse of power",
+            "dishonesty"
+        ]
+    }
+]

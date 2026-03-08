@@ -29,5 +29,10 @@
         "name": "universal-six",
         "size": 6,
         "positionName": ["present", "desire", "fear", "for you", "against you", "outcome"]
+    },
+    {
+        "name": "daily",
+        "size":1,
+        "positionName":["daily"]
     }
 ]
